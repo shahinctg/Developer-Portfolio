@@ -42,11 +42,13 @@ nav ul {
 nav li {
     list-style: none;
     margin-left: 50px;
+    color: #474747;
 }
 
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+    color: #181818;
 }
 
 /* banner styles */
@@ -77,11 +79,6 @@ nav li {
     margin-bottom: 30px;
 }
 
-#blazer-man {
-    width: 584px;
-    height: 676px;
-}
-
 /* main section */
 main {
     max-width: 1140px;
@@ -105,6 +102,7 @@ section{
     font-weight: 700;
     font-size: 35px;
     text-align: center;
+    color: #181818;
 }
 
 .section-desc {
@@ -165,3 +163,32 @@ section{
     height: 243px;
 }
 /* resume style */
+.resume-content{
+    display: flex;
+    gap: 71px;
+}
+.resume-item{
+    margin: 30px 0 30px;
+}
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+    margin-top: 80px;
+}
+.resume .title{
+    color: #474747;
+    font-size: 25px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-size: 20px;
+    margin: 10px 0 20px;
+}
+.resume .desc{
+    color: #757575;
+    font-size: 16px;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
