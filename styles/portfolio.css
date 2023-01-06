@@ -192,3 +192,38 @@ section{
     text-align: center;
     margin-top: 50px;
 }
+/* contact style */
+.contact{
+    background: #FFF8F3;
+    display: flex;
+    padding-bottom: 130px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.social{
+    width: 50%;
+    margin: 130px 0 0 150px;
+    padding-right: 17px;
+}
+.social li{
+    display: inline-block;
+}
+.social li a{
+    text-decoration: none;
+    padding-right: 15px;
+}
+.message{
+    width: 50%;
+    margin: 130px 200px 0 0;
+    padding-left: 100px;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.message .btn-primary{
+    width: 150px;
+}
